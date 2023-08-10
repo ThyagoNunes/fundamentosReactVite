@@ -4,6 +4,7 @@ import { Post } from "./Post";
 import { Header } from "./Header";
 import { Button } from "./Button";
 
+
 export function App() {
   const [posts, setPosts] = useState([]);
 
@@ -36,7 +37,8 @@ export function App() {
   return (
     <>
       <div className="flex flex-col">
-        <Header title="Dick Chamaleon Blog">Just for fun</Header>
+        
+        <Header title="Dick Chamaleon Blog">Just for fun </Header>
         <Button onClick={handleInsertPost}>Adicionar</Button>
       </div>
 
